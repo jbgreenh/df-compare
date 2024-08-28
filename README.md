@@ -1,6 +1,6 @@
 # df compare
 
-compares two polars dataframes for equality
+compares two polars dataframes for equality  
 `equality` in this case means that:
 
 - both dfs must have the same columns: column names, dtypes, number of cols
