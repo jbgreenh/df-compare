@@ -6,11 +6,9 @@ def dfcomp(a:pl.DataFrame, b:pl.DataFrame, write_csv:bool=False) -> bool:
     `equality` in this case means that:
     - both dfs must have the same columns: column names, dtypes, number of cols
     - both dfs must have the same rows
-
-    if the dfs have different columns they will not be checked for a difference
+    - if the dfs have different columns they will not be checked for a difference
     in rows
-
-    row and column order do not matter for column and row comparisons
+    - row and column order do not matter for column and row comparisons
 
     args:
         `a`: a pl.Dataframe
